@@ -14,7 +14,9 @@ public class GestorTextos{
                 eleccion_usuario = sc.nextInt();
                 sc.nextLine();
             }while(eleccion_usuario<0 || eleccion_usuario>3)
+            switch (eleccion_usuario){
 
+            }
 
 
         }while(eleccion_usuario!=0);
