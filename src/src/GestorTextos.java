@@ -67,7 +67,5 @@ public class GestorTextos{
         if (!encontrada){
             System.out.println("No se encontró la palabra");
         }
-
-
     }
 }
