@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeb04d6e-0623-4bf5-9768-0aa26b4ecc60" name="Changes" comment="Segundo commit Bucle si número no está en el rango">
+    <list default="true" id="eeb04d6e-0623-4bf5-9768-0aa26b4ecc60" name="Changes" comment="Tercer commit Correción e implementación de métodos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/GestorTextos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/GestorTextos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765875044201</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tercer commit Correción e implementación de métodos">
+      <option name="closed" value="true" />
+      <created>1765881507971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765881507971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tercer commit Correción e implementación de métodos">
+      <option name="closed" value="true" />
+      <created>1765881520989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765881520989</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +148,7 @@
     <MESSAGE value="Segundo commit añadido 1 y segunda opción del método" />
     <MESSAGE value="Primer commit Creación del menú" />
     <MESSAGE value="Segundo commit Bucle si número no está en el rango" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit Bucle si número no está en el rango" />
+    <MESSAGE value="Tercer commit Correción e implementación de métodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tercer commit Correción e implementación de métodos" />
   </component>
 </project>
