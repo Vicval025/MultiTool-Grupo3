@@ -4,7 +4,6 @@ public class GestorTextos{
     static int eleccion_usuario;
     static int contador=0;
     public static void tareas(){
-
         do{
                 System.out.println("1.Añadir tarea");
                 System.out.println("2.Listar tarea");
