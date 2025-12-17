@@ -40,7 +40,13 @@ public class GestorTextos{
         }
     }
     static void Listar_tarea(){
-
+        if (contador==0){
+            System.out.println("No hay tareas");
+        }else{
+            for (int i=0;i<contador;i++){
+                System.out.println("La tarea en la posición " + i + " es la tarea " + tarea_array[i]);
+            }
+        }
     }
     static void Buscar_palabra(){
 
