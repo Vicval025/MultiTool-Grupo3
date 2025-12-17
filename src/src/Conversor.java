@@ -30,6 +30,7 @@ public class Conversor {
                     break;
 
                 case 0:
+                    break;
                     System.out.println("Saliendo...");
 
                 default:
@@ -76,7 +77,7 @@ public class Conversor {
             double M = pt * 0.3048;
             System.out.println("Resultado: " + M + " Metros");
         } else if (unidad.equalsIgnoreCase("Pies")) {
-            System.out.println("DIme la cantidad de metros");
+            System.out.println("Dime la cantidad de metros");
             double M = sc.nextDouble();
             double pt = M * 3.280;
             System.out.println("Resultado: " + pt + " Pies");
