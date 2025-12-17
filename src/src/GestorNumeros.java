@@ -1,5 +1,4 @@
-public class GestorNumeros {
-    import java.util.Scanner;
+import java.util.Scanner;
 
     public class GestorNumeros {
 
@@ -121,5 +120,3 @@ public class GestorNumeros {
             System.out.println("0- Volver");
         }
     }
-
-}
