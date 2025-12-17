@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Adivinador {
-    static int intentosFinal = 0;
+    static int intentosFinal = -1;
     static int seleccion = 0;
     static Scanner kbd = new Scanner(System.in);
 
@@ -22,7 +22,7 @@ public class Adivinador {
                     intentosAnteriores();
                     break;
 
-                case 3:
+                case 0:
                     System.out.println("¡Hasta pronto!");
                     break;
 
@@ -30,7 +30,7 @@ public class Adivinador {
                     System.out.println("Introduzca una opción correcta");
                     break;
             }
-        }while (seleccion != 3);
+        }while (seleccion != 0);
     }
 
     public static int generaAleatorio(){
@@ -66,7 +66,7 @@ public class Adivinador {
         System.out.println("====================================");
         System.out.println("1- Jugar (Número entre 1 y 50)");
         System.out.println("2- Mostrar intentos del último juego");
-        System.out.println("3- Volver");
+        System.out.println("0- Volver");
     }
 }
 

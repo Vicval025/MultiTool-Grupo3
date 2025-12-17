@@ -30,8 +30,8 @@ public class Conversor {
                     break;
 
                 case 0:
-                    break;
                     System.out.println("Saliendo...");
+                    break;
 
                 default:
                     System.out.println("Opcion no valida");
