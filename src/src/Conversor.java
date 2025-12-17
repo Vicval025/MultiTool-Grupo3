@@ -43,7 +43,26 @@ public class Conversor {
 
     }
     static void CelciusyFahrenheit(){
+        System.out.println("A que unidad quieres convertir? (celsius/farenheit");
+        sc.nextLine();
+        String unidad=sc.nextLine();
+        unidad.equalsIgnoreCase("celcius");
 
+
+        if(unidad.equalsIgnoreCase("celsius")){
+            System.out.println("Dime la cantidad de fahrenheit");
+            double F=sc.nextDouble();
+            double C=(F - 32)/1.8;
+            System.out.println("Resultado: "+C+" ºC");
+        }else if(unidad.equalsIgnoreCase("fahrenheit")){
+            System.out.println("Dime la cantidad de celsius");
+            double C=sc.nextDouble();
+            double F=(C * 1.8)+32;
+            System.out.println("Resultado: "+F+" ºF");
+        }else{
+            System.out.println("Unidad no valida");
+        }
+    }
     }
 
     static void MetrosaPies(){
