@@ -46,7 +46,6 @@ public class Conversor {
         System.out.println("A que unidad quieres convertir? (celsius/farenheit");
         sc.nextLine();
         String unidad=sc.nextLine();
-        unidad.equalsIgnoreCase("celcius");
 
 
         if(unidad.equalsIgnoreCase("celsius")){
