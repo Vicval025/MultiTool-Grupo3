@@ -65,7 +65,24 @@ public class Conversor {
     }
 
     static void MetrosaPies(){
-        Scanner sc = new Scanner (System.in);
+        System.out.println("A que unidad quieres cambiar?(Metros/Pies)");
+        sc.nextLine();
+        String unidad=sc.nextLine();
+
+
+        if(unidad.equalsIgnoreCase("Metros")){
+            System.out.println("Dime la cantidad de Pies");
+            double pt=sc.nextDouble();
+            double M=pt * 0.3048;
+            System.out.println("Resultado: "+M+" Metros");
+        }else if(unidad.equalsIgnoreCase("Pies")){
+            System.out.println("Dime la cantidad de metros");
+            double M=sc.nextDouble();
+            double pt= M * 3.280;
+            System.out.println("Resultado: "+pt+" Pies");
+        }else{
+            System.out.println("Unidad no valida");
+        }
     }
     static void KgaLibras(){
         Scanner sc = new Scanner (System.in);
