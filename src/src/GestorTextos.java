@@ -31,7 +31,13 @@ public class GestorTextos{
         }while(eleccion_usuario!=0);
     }
     static void Añadir_lista(){
-
+        if (contador<tarea_array.length){
+            System.out.print("Dime la tarea: ");
+            tarea_array[contador] = sc.nextLine();
+            contador++;
+        }else {
+            System.out.println("No caben más tareas.");
+        }
     }
     static void Listar_tarea(){
 
