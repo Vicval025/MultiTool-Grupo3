@@ -76,14 +76,13 @@ public class Conversor {
             double M=pt * 0.3048;
             System.out.println("Resultado: "+M+" Metros");
         }else if(unidad.equalsIgnoreCase("Pies")){
-            System.out.println("Dime la cantidad de metros");
+            System.out.println("DIme la cantidad de metros");
             double M=sc.nextDouble();
             double pt= M * 3.280;
             System.out.println("Resultado: "+pt+" Pies");
         }else{
             System.out.println("Unidad no valida");
         }
-    }
     static void KgaLibras(){
         Scanner sc = new Scanner (System.in);
     }
