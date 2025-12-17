@@ -84,7 +84,22 @@ public class Conversor {
             System.out.println("Unidad no valida");
         }
     static void KgaLibras(){
-        Scanner sc = new Scanner (System.in);
+            System.out.println("A que unidad quieres cambiar? (Kilos/Libras)");
+            sc.nextLine();
+            String unidad=sc.nextLine();
+            if(unidad.equalsIgnoreCase("Kilos")){
+                System.out.println("Dime la cantidad de libras");
+                double lb= sc.nextDouble();
+                double Kg= lb * 0.45359;
+                System.out.println("Resultado: "+Kg+" Kilogramos");
+            }else if(unidad.equalsIgnoreCase("Libras")){
+                System.out.println("Dime la cantidad de kilos");
+                double Kg=sc.nextDouble();
+                double lb= Kg * 2.20462;
+                System.out.println("Resultado: "+lb+" Libras");
+            }else{
+                System.out.println("Unidad no valida");
+            }
     }
 }
 
