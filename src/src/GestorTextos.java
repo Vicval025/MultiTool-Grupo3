@@ -31,40 +31,12 @@ public class GestorTextos{
         }while(eleccion_usuario!=0);
     }
     static void Añadir_lista(){
-        if (contador<tarea_array.length){
-            System.out.print("Dime la tarea: ");
-            tarea_array[contador] = sc.nextLine();
-            contador++;
-        }else {
-            System.out.println("No caben más tareas.");
-        }
+
     }
     static void Listar_tarea(){
-        if (contador==0){
-            System.out.println("No hay tareas");
-        }else{
-            for (int i=0;i<contador;i++){
-                System.out.println("La tarea en la posición " + i + " es la tarea " + tarea_array[i]);
-            }
-        }
+
     }
     static void Buscar_palabra(){
-        if (contador==0){
-            System.out.println("No hay tareas a buscar");
-            return;
-        }
-        System.out.println("¿Qué palabra quieres buscar?");
-        String palabra_buscar = sc.nextLine();
-        boolean encontrada = false;
 
-        for (int i=0;i<contador;i++){
-            if (tarea_array[i].contains(palabra_buscar)){
-                System.out.println("Encontrada en posición " + i + ": " + tarea_array[i]);
-                encontrada=true;
-            }
-        }
-        if (!encontrada){
-            System.out.println("No se encontró la palabra");
-        }
     }
 }
