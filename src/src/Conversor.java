@@ -43,7 +43,7 @@ public class Conversor {
 
     }
     static void CelciusyFahrenheit(){
-        System.out.println("A que unidad quieres convertir? (celsius/farenheit");
+        System.out.println("A que unidad quieres convertir? (celsius/farenheit)");
         sc.nextLine();
         String unidad=sc.nextLine();
 
@@ -62,27 +62,28 @@ public class Conversor {
             System.out.println("Unidad no valida");
         }
     }
-    }
 
-    static void MetrosaPies(){
+
+    static void MetrosaPies() {
         System.out.println("A que unidad quieres cambiar?(Metros/Pies)");
         sc.nextLine();
-        String unidad=sc.nextLine();
+        String unidad = sc.nextLine();
 
 
-        if(unidad.equalsIgnoreCase("Metros")){
+        if (unidad.equalsIgnoreCase("Metros")) {
             System.out.println("Dime la cantidad de Pies");
-            double pt=sc.nextDouble();
-            double M=pt * 0.3048;
-            System.out.println("Resultado: "+M+" Metros");
-        }else if(unidad.equalsIgnoreCase("Pies")){
+            double pt = sc.nextDouble();
+            double M = pt * 0.3048;
+            System.out.println("Resultado: " + M + " Metros");
+        } else if (unidad.equalsIgnoreCase("Pies")) {
             System.out.println("DIme la cantidad de metros");
-            double M=sc.nextDouble();
-            double pt= M * 3.280;
-            System.out.println("Resultado: "+pt+" Pies");
-        }else{
+            double M = sc.nextDouble();
+            double pt = M * 3.280;
+            System.out.println("Resultado: " + pt + " Pies");
+        } else {
             System.out.println("Unidad no valida");
         }
+    }
     static void KgaLibras(){
             System.out.println("A que unidad quieres cambiar? (Kilos/Libras)");
             sc.nextLine();
