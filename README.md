@@ -1,6 +1,5 @@
 # MultiTool-Grupo3
 Proyecto Final GitHub
-
 Este proyecto tiene como finalidad mostrar el trabajo en equipo y el correcto uso de los repositorios remotos con los repositorios locales de cada integrante y una simulación de cómo trabajan los desarrolladores hoy en día y cómo pueden trabajar en equipo sin necesidad de estar juntos, destacando que Git es una herramienta versátil y eficaz.
 
 El proyecto propone 5 mini-programas sencillos pero interesantes que se dividen de la siguiente manera:

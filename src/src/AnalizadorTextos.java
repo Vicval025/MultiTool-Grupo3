@@ -9,7 +9,7 @@ public class AnalizadorTextos {
         3 Palabra más larga
         4 Volver
         Se trabaja con String, bucles y comparaciones.*/
-        int seleccion = 0;
+        int seleccion = -1;
         do {
             String s = "Esto es una prueba de gestor de textos";
             escribeMenu();
@@ -28,7 +28,7 @@ public class AnalizadorTextos {
                     palabraLarga(s);
                     break;
 
-                case 4:
+                case 0:
                     System.out.println("¡Hasta pronto!");
                     break;
 
@@ -36,7 +36,7 @@ public class AnalizadorTextos {
                     System.out.println("Introduzca una opción correcta");
                     break;
             }
-        }while (seleccion != 4);
+        }while (seleccion != 0);
 
     }
 
